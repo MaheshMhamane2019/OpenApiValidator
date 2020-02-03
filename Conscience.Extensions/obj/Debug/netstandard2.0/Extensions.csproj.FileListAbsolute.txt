@@ -1,0 +1,17 @@
+D:\Development Container\Development\Development\src\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.deps.json
+D:\Development Container\Development\Development\src\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.dll
+D:\Development Container\Development\Development\src\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.pdb
+D:\Development Container\Development\Development\src\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.csproj.CoreCompileInputs.cache
+D:\Development Container\Development\Development\src\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.AssemblyInfoInputs.cache
+D:\Development Container\Development\Development\src\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.AssemblyInfo.cs
+D:\Development Container\Development\Development\src\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.dll
+D:\Development Container\Development\Development\src\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.pdb
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.deps.json
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.dll
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\bin\Debug\netstandard2.0\Extensions.pdb
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.csprojAssemblyReference.cache
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.csproj.CoreCompileInputs.cache
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.AssemblyInfoInputs.cache
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.AssemblyInfo.cs
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.dll
+D:\Development Container\Development\Development\GitHub\OpenApiValidator\Conscience.Extensions\obj\Debug\netstandard2.0\Extensions.pdb
