@@ -13,7 +13,7 @@ namespace Conscience.OpenApiValidator
 	public class OpenApiParameterRule : ValidatorRule<KeyValuePair<string, StringValues>, OpenApiParameter>
 	{
 		//private OpenApiSchemaRule
-		private OpenApiSchemaRule _openApiSchemaRule;
+		private OpenApiSchemaRuleUsingManateeJson _openApiSchemaRule;
 		private IList<OpenApiContentMediaTypeRule> _openApiContentMediaTypeRule;
 		private bool _required;
 
@@ -58,9 +58,9 @@ namespace Conscience.OpenApiValidator
 		/// </summary>
 		public override void AddRule(IValidate rule)
 		{
-			if(rule is OpenApiSchemaRule)
+			if(rule is OpenApiSchemaRuleUsingManateeJson)
 			{
-				_openApiSchemaRule=rule as OpenApiSchemaRule;
+				_openApiSchemaRule=rule as OpenApiSchemaRuleUsingManateeJson;
 			}
 			else
 				if(rule is OpenApiContentMediaTypeRule)

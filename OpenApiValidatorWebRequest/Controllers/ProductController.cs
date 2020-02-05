@@ -14,25 +14,18 @@ namespace OpenApiValidatorWebRequest.Controllers
 		[HttpGet]
 		public ActionResult<IEnumerable<Product>> Get()
 		{
-			return new List<Product>() { new Product { Price=10 } };
+			return new List<Product>() { new Product { price=10 } };
 		}
-
-		// GET api/values/5
-		//[HttpGet("{id}")]
-		//public ActionResult<Product> Get([FromQuery] int id)
-		//{
-		//	return new Product { Price=10 };
-		//}
 
 		// POST api/values
 		[HttpPost]
-		public void Post([FromBody] Product value)
+		public void Post([FromBody] Product value = null)
 		{
 		}
 
 		// PUT api/values/5
-		[HttpPut("{id}")]
-		public void Put(int id, [FromBody] Product value)
+		[HttpPut]
+		public void Put([FromBody] Product value = null)
 		{
 		}
 

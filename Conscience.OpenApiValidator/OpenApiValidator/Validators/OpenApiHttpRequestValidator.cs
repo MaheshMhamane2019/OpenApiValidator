@@ -57,6 +57,12 @@ namespace Conscience.OpenApiValidator
 
 		public string UrlPath { get; private set; }
 
+		public virtual RuleLogs Validate(HttpContext httpContext)
+		{
+			this.SetData(httpContext.Request);
+			return this.Validate();
+		}
+
 		public override RuleLogs Validate()
 		{
 			if (_headerValidator != null)

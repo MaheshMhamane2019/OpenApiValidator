@@ -96,11 +96,6 @@ namespace Conscience.OpenApiValidator
 		/// <summary>
 		///
 		/// </summary>
-		private IValidatorContext context;
-
-		/// <summary>
-		///
-		/// </summary>
 		public string RequestElementName { get; set; }
 
 		public string RuleName { get { return this.GetType().Name; } }

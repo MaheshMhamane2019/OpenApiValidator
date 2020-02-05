@@ -20,8 +20,7 @@ namespace OpenApiValidatorWebRequest.Middleware
 				await _next(httpContext);
 			else
 			{
-				_httpRequestValidator.SetData(httpContext.Request);
-				var logs = _httpRequestValidator.Validate();
+				var logs = _httpRequestValidator.Validate(httpContext);
 
 				if(logs.Count==0)
 					await _next(httpContext);

@@ -11,10 +11,10 @@ namespace OpenApiValidatorWebRequest.Controllers
 
 	public class Product
 	{
-		public int ProductId { get; set; }
-		public string ProductName { get; set; }
-		public double Price { get; set; }
-		public List<string> Tags { get; set; }
-		public Dimensions Dimensions { get; set; }
+		public int productId { get; set; }
+		public string productName { get; set; }
+		public double price { get; set; }
+		public List<string> tags { get; set; }
+		public Dimensions dimensions { get; set; }
 	}
 }
